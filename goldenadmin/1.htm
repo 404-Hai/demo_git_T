@@ -1,0 +1,343 @@
+
+<head>
+<title>ZO Rental Car</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Page-Enter" content="progid:DXImageTransform.Microsoft.Fade(duration=1)">
+<META http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=1)">
+<link href="css/editor.css" rel="stylesheet">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+<table width="800" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td>
+	<table width="800" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td bgcolor="#AD1F2D" style="font-weight:bold ">
+			<SCRIPT language=JavaScript>
+	function startclock()
+	{
+		var curTime=new Date();
+		var nhours=curTime.getHours();
+		var nmins=curTime.getMinutes();
+		var nsecn=curTime.getSeconds();
+		var nday=curTime.getDay();
+		var nmonth=curTime.getMonth();
+		var ntoday=curTime.getDate();
+		var nyear=curTime.getYear();
+		var AMorPM=" ";
+
+		if (nhours>=12)
+			AMorPM="P.M";
+		else
+			AMorPM="A.M";
+
+		if (nhours>=13)
+			nhours-=12;
+
+		if (nhours==0)
+			nhours=12;
+
+		if (nsecn<10)
+			nsecn="0"+nsecn;
+
+		if (nmins<10)
+			nmins="0"+nmins;
+
+		if (nday==0)
+			nday="Sunday";
+		if (nday==1)
+			nday="Monday"; 
+		if (nday==2)
+			nday="Tuesday"; 
+		if (nday==3)
+			nday="Wednesday";
+		if (nday==4)
+			nday="Thursday";
+		if (nday==5)
+			nday="Friday";
+		if (nday==6)
+			nday="Saturday";
+
+		nmonth+=1;
+
+		if (nyear<=99)
+			nyear= "19"+nyear;
+
+		if ((nyear>99) && (nyear<2000))
+			nyear+=1900;
+		var d;
+		d= document.getElementById("theClock");
+		
+		d.innerHTML=nday+", " + ntoday +"/" + nmonth +"/"+nyear + " " + nhours+":"+nmins+":"+nsecn + " " + AMorPM;
+		setTimeout('startclock()',1000);
+
+	} 
+</SCRIPT>
+
+<DIV id=theClock 
+      style="FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial, Tahoma">Label</DIV>
+<SCRIPT language=JavaScript>startclock();</SCRIPT>
+			</td>
+			<td width="164" background="skin/bg_top.jpg" height="22" align="right">
+			<a href="">Vietnamese</a> |
+			<a href="">English</a>&nbsp;
+			</td>
+		</tr>
+	</table>
+	</td>
+  </tr>
+  <tr>
+    <td>	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="800" height="130">
+      <param name="movie" value="skin/banner.swf">
+      <param name="quality" value="high">
+      <embed src="skin/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="800" height="130"></embed>
+    </object></td>
+  </tr>
+  <tr>
+  <td style="border-bottom:1px solid #FFFFFF ">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="Menutop" onMouseOver="this.className='MenutopOver';" onMouseOut="this.className='Menutop';" onClick="document.location.href='?mod=index&id_current=0&lang=1'">
+	  Home page</td>      
+      <td  align="center" class="Menutop" onMouseOver="this.className='MenutopOver';" onMouseOut="this.className='Menutop';" onClick="document.location.href='?mod=about&id_current=0&lang=1'">
+	  About us</td>      
+	  <td  align="center" class="Menutop" onMouseOver="this.className='MenutopOver';" onMouseOut="this.className='Menutop';" onClick="document.location.href='?mod=news&id_current=0&lang=1'">
+	  News</td>    
+      <td align="center" class="Menutop" onMouseOver="this.className='MenutopOver'; DropDownMenu.showMenu('menu1')" onMouseOut="this.className='Menutop'; DropDownMenu.hideMenu('menu1')" id=act1>
+	  Services</td>     
+      <td  align="center" class="Menutop" onMouseOver="this.className='MenutopOver';" onMouseOut="this.className='Menutop';" onClick="document.location.href='?mod=contact&id_current=0&lang=1'">
+	  Contact us</td>
+	   <td style="border-top:1px solid #FFFFFF ">
+	   	   <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #999966 ">
+	   <form name="search" action="" method="post">
+		  <tr>
+			<td width="8"><img src="skin/menutop.jpg" width="8" height="20"></td>
+			
+			<td width="188" background="skin/menutop1.jpg">
+			<strong>Search</strong>
+			<input type="text" name="keyword" class="Input" style=" height:18px; width:115px ">&nbsp;<input type="image" src="Skin/search.jpg" align="absmiddle">
+			</td>
+		  </tr>
+		  </form>
+		</table>
+		
+</td>	  
+    </tr>
+  </table></td>
+  </tr>
+  <tr>
+    <td>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="160" valign="top">
+		<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  		<tr>
+    		<td>
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" >
+          		<tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" onClick="document.location.href='?mod=car&id_current=0&lang=1'">Car rental</td>
+				</tr>
+				<tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" onClick="document.location.href='?mod=tours&id_current=0&lang=1'">Tour program</td>
+				</tr>
+				  <tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" Click="document.location.href='?mod=travel&id_current=0&lang=1'">Travel infomation</td>
+				  </tr>          
+					<tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" Click="document.location.href='?mod=ticket&id_current=0&lang=1'">Ticket</td>
+				  </tr>
+				   <tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" Click="document.location.href='?mod=hotels&id_current=0&lang=1'">Hotels</td>
+				  </tr>
+				   <tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" Click="document.location.href='?mod=visa&id_current=0&lang=1'">Visa</td>
+				  </tr>
+				  <tr>
+					<td class="MenuLeft" onMouseOver="this.className='MenuLeftOver';" onMouseOut="this.className='MenuLeft';" Click="document.location.href='?mod=restaurent&id_current=0&lang=1'">Restaurent</td>
+				  </tr>
+				   <SCRIPT>
+				   function showWeather(){window.open('http://thanhnien.com.vn/news/LiveInfo/WeatherPage.aspx','my_new_window','scrollbars=no, resizable=no, width=136, height=130');}
+				   function showStock(){window.open('http://www.bsc.com.vn/OP/OP.htm','my_new_window','scrollbars=no, resizable=no, width=800, height=500');}
+				   function showGoldPrice(){window.open('http://thanhnien.com.vn/news/LiveInfo/GoldPricePage.aspx','my_new_window','scrollbars=no, resizable=no, width=140, height=170');}
+				   function showMoneyRate(){window.open('http://thanhnien.com.vn/news/LiveInfo/MoneyRateP.aspx','my_new_window','scrollbars=no, resizable=no, width=140, height=240');}
+				   function showBigInfo(zonename){window.open('http://thanhnien.com.vn/news/LiveInfo/LotteryPage.aspx?ZURL=' + zonename,'my_new_window','scrollbars=yes, resizable=no, width=467, height=350');}
+					</SCRIPT>
+				  <tr>
+					<td class="Headleft">Useful Infomation</td>
+				  </tr>
+				  <tr>
+					<td class="LeftContent">
+					<table width="100%" cellpadding="0" cellspacing="0" >		
+						<tr>
+							<td align="left">&nbsp;&nbsp;<IMG height=15 src="skin/icon_dollar.gif" width=9></td>
+							<td width="91%" >&nbsp;&nbsp;<A href="javascript:showMoneyRate();">Rate Exchange</A></td>
+						</tr> 		
+						<tr>
+							<td align="left" >&nbsp;&nbsp;<IMG height=16 src="skin/goldIcon.gif" width=18></td>
+							<td width="91%" >&nbsp;&nbsp;<A href="javascript:showGoldPrice();">Price Gold</A></td>
+						</tr> 
+						<tr>
+							<td align="left">&nbsp;&nbsp;<IMG height=16 src="skin/icon_stock.gif" width=18></td>
+							<td width="91%">&nbsp;&nbsp;<A href="javascript:showStock();">Stock</A></td>
+						</tr>
+						<tr>
+							<td align="left">&nbsp;&nbsp;<IMG height=15 src="skin/TV_Icon.gif" width=17></td>
+							<td width="91%" >&nbsp;&nbsp;<A href="javascript:showBigInfo('TVProgram');">The day Broadcast</A></td>
+						</tr>
+						<tr>
+							<td align="left">&nbsp;&nbsp;<IMG height=16 src="skin/icon_loto.gif" width=15></td>
+							<td width="91%">&nbsp;&nbsp;<A href="javascript:showBigInfo('kqxs');">Result Lottery</A></td>
+						</tr>
+			  		</table>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="Headleft">Website Infomation</td>
+				  </tr>
+				  <tr>
+					<td class="LeftContent"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td colspan="2"><img src="skin/DotRed.png" width="5" height="5" align="absmiddle"> Visited</td>
+                        </tr>
+                      <tr>
+                        <td width="44%">&nbsp;</td>
+                        <td width="56%" class="Visit">58734</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><img src="skin/DotRed.png" width="5" height="5" align="absmiddle"> Online</td>
+                        </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td class="Visit">25</td>
+                      </tr>
+                    </table></td>
+				  </tr>
+				  <tr>
+					<td class="Headleft">Online Support</td>
+				  </tr>
+				  <tr>
+					<td class="LeftContent"><a href="ymsgr:sendIM?adconline811"><img src="skin/online.gif" border="0"></a></td>
+				  </tr>
+				</table>
+				</td>
+		  </tr>		 
+ 		</table>
+</td>
+        <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<img src="skin/index_r3_c2.jpg">
+	</td>
+  </tr>
+</table>
+</td>
+        <td width="150" valign="top">
+		<table width="150" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="Headright" align="center">TOP 10 TOURS</td>
+          </tr>          
+          <tr>
+            <td style="border:1px solid #AD1F2D ">
+			
+			<script type="text/javascript">
+var news_link;
+news_link = "";
+news_link="<DIV id=demo style=\"OVERFLOW: hidden; WIDTH:100%; HEIGHT: 120px; \"><DIV id=demo1>";
+news_link+="SaPa 4 ngày<br>";
+news_link+="";
+news_link+="Du Lịch Sa Pa 3 Ngày / 3 Đêm<br>";
+news_link+="";
+news_link+="Hà Nội - Phong Nha - Huế<br>";
+news_link+="";
+news_link+="PHONG NHA 4 đêm bằng tàu hoả – Ngủ đêm tại SUNSPA RESORT 4****<br>";
+news_link+="";
+news_link+="Tour thăm quan Lào - đất nước triệu voi: Áp dụng cho khách đoàn<br>";
+news_link+="";
+news_link+="Hà nội - Đông Hà - Lao Bảo - Savanakhet - Vientiane - Udonthani – Hà nội<br>";
+news_link+="";
+news_link+="Trà Cổ - Đông Hưng<br>";
+news_link+="";
+news_link+="Thăm thủ đô Hà Nội<br>";
+news_link+="";
+news_link+="Các Chương trình du lịch thăm quan làng nghề Hà nội bằng xe ôtô "1 ngày"<br>";
+news_link+="";
+news_link+="Hà Nội - Chùa Hương 1 Ngày<br>";
+news_link+="";
+news_link+="</DIV><DIV id=demo2></DIV></DIV>"
+document.write(news_link);
+
+var speed=33
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){
+if(demo2.offsetTop-demo.scrollTop<=0)
+demo.scrollTop-=demo1.offsetHeight
+else{
+demo.scrollTop++
+}
+}
+var MyMar=setInterval(Marquee,speed)
+demo.onmouseover=function(){clearInterval(MyMar)}
+demo.onmouseout=function(){MyMar=setInterval(Marquee,speed)}
+</script>			</td>
+          </tr>
+		  <tr>
+            <td class="Headright" align="center">EMAIL LETTER</td>
+          </tr>          
+		  <tr>
+            <form name="form1" method="post" action="" onsubmit="return Checkmail(this)">
+              <td bgcolor="#FFFFCC" style="line-height:15px; padding:3px" align="right"> Input your E-mail:<br><br>
+                  <input type="text" name="txtmail" style="height:18px; width:110px; border:1px solid " onClick="this.value=''" value="your mail">
+                  <input name="" type="submit" value="GO" style="height:18px; border:1px solid; font-size:11px ">
+				  <br>We are confirm for you with your email.
+              </td>
+            </form>
+          </tr>
+		  	
+			  <tr>    
+				<td style="padding:4px " align="right">
+				<a href=""><img hspace="4" vspace="4" src="upload/adv/1.gif" border="0" width="146"></a>
+				</td>
+			  </tr>
+				
+			  <tr>    
+				<td style="padding:4px " align="right">
+				<a href=""><img hspace="4" vspace="4" src="upload/adv/2.gif" border="0" width="146"></a>
+				</td>
+			  </tr>
+				
+			  <tr>    
+				<td style="padding:4px " align="right">
+				<a href=""><img hspace="4" vspace="4" src="upload/adv/3.gif" border="0" width="146"></a>
+				</td>
+			  </tr>
+				
+			  <tr>    
+				<td style="padding:4px " align="right">
+				<a href=""><img hspace="4" vspace="4" src="upload/adv/4.gif" border="0" width="146"></a>
+				</td>
+			  </tr>
+			        </table>
+		</td>
+      </tr>
+    </table>	
+	</td>
+  </tr>  
+  <tr>
+    <td align="center"><b>		
+		<a href="javascript:history.back()" class="alink"><img src="Skin/rl.gif" align="absmiddle"border="0">&nbsp; Back&nbsp;</a>
+		<a href="#" class="alink"><img src="Skin/rtop.gif" align="absmiddle"border="0">&nbsp;Top&nbsp;</a>
+		<a href="#" class="alink" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('www.zorentalcar.com');" >
+		<img src="Skin/home.gif" align="absmiddle"border="0">&nbsp;Set as home page</a></b>
+	</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="skin/bg_bottom.jpg" width="800" height="136"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+</html>

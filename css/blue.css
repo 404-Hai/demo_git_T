@@ -1,0 +1,39 @@
+<style>
+<!--//
+A               { font-family: Arial, Verdana; font-size: 8pt; color: #000000; }
+A:link          { font-family: Arial, Verdana; font-size: 8pt; color:#555256; text-decoration: none }
+A:visited       { font-family: Arial, Verdana; font-size: 8pt; color:#555256; text-decoration: none }
+A:hover         { font-family: Arial, Verdana; font-size: 8pt; color:#555256; text-decoration: none }
+A:active        { font-family: Arial, Verdana; font-size: 8pt; color:#557799; text-decoration: none }
+
+body            { font-family: Arial, Verdana; font-size: 8pt; color: #000000; background-color: #FFFFFF; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px; }
+.foreground     { background-color: #0099DD; text-align: center }
+.box            { background-color: #000000; text-align: center }
+
+.year           { font-family: Arial, Verdana; font-size: 9pt;  color: #FFFFFF; font-weight: bold; background-color: #006699; }
+.yearHover      { font-family: Arial, Verdana; font-size: 9pt;  color: #FFEE00; font-weight: bold; background-color: #006699; }
+.yearSelected   { font-family: Arial, Verdana; font-size: 12pt; color: #99DDFF; font-weight: bold; background-color: #006699; }
+.yearNav        { font-family: Arial, Verdana; font-size: 14pt; color: #99DDFF; font-weight: bold; background-color: #006699; }
+.yearNum        { font-family: Arial, Verdana; font-size: 7pt;  color: #AAAAAA; font-weight: none; background-color: #006699; }
+
+.month          { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #DEDEDE; text-align: center }
+.monthHover     { font-family: Arial, Verdana; font-size: 8pt;  color: #006699; font-weight: none; background-color: #EEEEEE; text-align: center }
+.monthSelected  { font-family: Arial, Verdana; font-size: 8pt;  color: #006699; font-weight: bold; background-color: #99DDFF; text-align: center }
+
+.week           { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #99DDFF; text-align: center }
+.weekHover      { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #AAEEFF; text-align: center }
+.weekSelected   { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #DDEEFF; text-align: center }
+.weekend        { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #DDDDDD; text-align: center }
+
+.dayHeader      { font-family: Arial, Verdana; font-size: 8pt;  color: #99DDFF; font-weight: bold; background-color: #006699; text-align: center }
+.day            { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #FFFFFF; text-align: center }
+.dayHover       { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: none; background-color: #EEEEEE; text-align: center }
+.daySelected    { font-family: Arial, Verdana; font-size: 8pt;  color: #000000; font-weight: bold; background-color: #AADDFF; text-align: center }
+.dayInactive    { font-family: Arial, Verdana; font-size: 8pt;  color: #AAAAAA; font-weight: none; text-align: center }
+
+.timeHeader     { font-family: Arial, Verdana; font-size: 7pt;  color: #FFFFFF; font-weight: none; background-color: #0099DD; text-align: center }
+.time           { font-family: Arial, Verdana; font-size: 8pt;  color: #FFFFFF; font-weight: bold; background-color: #0099DD; text-align: center }
+
+input.button    { font-family: Arial, Verdana; font-size: 8pt; color:#003366; border: 1px solid #000000; width: 60px; background-image: url('http://localhost/image/button.jpg'); }
+//-->
+</style>

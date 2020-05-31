@@ -1,0 +1,95 @@
+﻿HTML {
+	HEIGHT: 100%
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana; HEIGHT: 100%;
+	font-size:11px		 
+}
+TABLE{
+font-family:Verdana; font-size:11px; LINE-HEIGHT:160%;
+}
+H1 {
+	FONT-SIZE: 0.9em
+}
+A {
+	COLOR:Blue; text-decoration:none;
+}
+A:hover {
+	COLOR:#FF3300; text-decoration:underline;
+}
+.Top{
+	border-right:1px solid #CCCCCC; color:#68560A; font-weight:bold;
+}
+.Top_over{
+	border-right:1px solid #CCCCCC; color:#FF3300; font-weight:bold; cursor:pointer;
+}
+.TopContact{
+	color:#68560A; font-weight:bold;
+}
+.TopContact_Over{
+	color:#FF3300; font-weight:bold; cursor:pointer;
+}
+.Footer{
+	border-left:1px solid #A7DCA7; border-right:1px solid #2D8A00; 
+	border-top:1px solid #A7DCA7; border-bottom:1px solid #A7DCA7;
+	color:#FFFFFF; background-color:#016332; padding-left:2px; padding-right:2px; height:22px;
+}
+.Footer_over{
+	border-left:1px solid #A7DCA7; border-right:1px solid #2D8A00; 
+	border-top:1px solid #A7DCA7; border-bottom:1px solid #A7DCA7; cursor:hand;
+	color:#FF3300; background-color:#016332; padding-left:2px; padding-right:2px; height:22px;
+}
+.Other{
+	text-decoration:underline; padding-left:10px; height:20px 
+}
+.OtherOver{
+	text-decoration:none; color:#FF3300; cursor:hand; padding-left:10px; height:20px
+}
+.Detail{
+	text-decoration:none; color:#FF3300; cursor:hand;
+}
+.txtheader
+{
+	FONT-WEIGHT:bold; FONT-SIZE:12px; COLOR:#003399;
+}
+.txtheaderover
+{
+	FONT-WEIGHT:bold; FONT-SIZE:12px; COLOR:#FF3300; cursor:hand;
+}
+.header
+{
+	FONT-WEIGHT:bold; FONT-SIZE:12px; COLOR:#FFFFFF; height:21px; padding:0 0 0 0;
+	background-image:url(../skin/h2.jpg); width:240px;
+}
+.headerover
+{
+	FONT-WEIGHT:bold; FONT-SIZE:12px; COLOR:#FFFFFF; height:21px; padding:0 0 0 0;
+	background-image:url(../skin/h2.jpg); width:240px; cursor:hand;
+}
+.header_white
+{
+	FONT-WEIGHT:bold; FONT-SIZE:12px; COLOR:#FFFFFF; height:22px; padding:0 0 0 4;
+	border:1px solid #FFFFFF; background-color:#028242;
+}
+.subBanner
+{
+	background-color:#EEEEEE; border:1px solid #CCCCCC;
+}
+.subBanner_Over
+{
+	background-color:#028242; border:1px solid #CCCCCC; color:#FFFFFF; cursor:hand;
+}
+.Menu {
+	height: 22px; color:#376BA6; padding:2px; font-size:11px;
+}
+.MenuOver {
+	height: 22px; color:#FF3300; padding:2; font-size:11px; cursor:pointer;
+}
+.subMenu {
+	color:#376BA6; padding:2 0 2 10; font-size:11px; cursor:pointer;
+}
+.subMenuOver {
+	height: 22px; color:#FF3300; padding:2 0 2 10; font-size:11px; cursor:pointer;
+}
+.option{display: none;}
+.Options {padding:0 0 0 0}

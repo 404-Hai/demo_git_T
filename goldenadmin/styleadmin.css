@@ -1,0 +1,46 @@
+BODY{
+	margin-left:0px; margin-top:0px; margin-right:0pt; margin-bottom:0px;		
+	font-family:Verdana; font-size:11px; font-weight:bold;
+}
+.admin_black12px{
+	font-family:Verdana; font-size:11px; color:#000000
+}
+.admin_black12px_bold{
+	font-family:Verdana; font-size:11px; font-weight:bold; color:#000000
+}
+.admin_red{
+	color:#CC0000
+}
+A {
+	COLOR: #376BA6; TEXT-DECORATION: none; font-size:11px;
+}
+A:hover {
+	COLOR: #FF8A09; TEXT-DECORATION:none; font-size:11px;
+}
+TR.mouseout {
+	BACKGROUND-COLOR: #FFFFFF; font-family:Verdana; font-size:11px; color:#000000
+}
+TR.mousein {
+	BACKGROUND-COLOR:#F4F4F4; font-family:Verdana; font-size:11px; color:#FF6600; cursor:hand
+}
+TR.checked {
+	BACKGROUND-COLOR:#F0F0F0; font-family:Verdana; font-size:11px; color:#000000
+}
+TR.mousechecked {
+	BACKGROUND-COLOR: #F0F0F0; font-family:Verdana; font-size:11px; color:#000000
+}
+.Menu {
+	BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-TOP: #FFFFFF 1px solid; BACKGROUND-COLOR: #EAEEEE;
+	cursor:pointer; height: 22px; color:#376BA6; width: 100%; padding:2; font-size:11px
+}
+.subMenu {
+	BORDER-TOP: #FFFFFF 1px solid; BACKGROUND-COLOR: #F3F5F5; height: 20px; color:#336699; width: 100%; 
+	cursor:pointer; padding-left:10px; padding-top:3px
+}
+.subMenuOver {
+	BORDER-TOP: #FFFFFF 1px solid; BACKGROUND-COLOR: #F4F4F4; height:20px; color:#336699; width: 100%;
+}
+.option{display: none;}
+.Options {padding:0 0 0 0}
+.navbtn{
+border: 1px solid #000000}
